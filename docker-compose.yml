@@ -1,0 +1,18 @@
+version: '3'
+
+
+services:
+    document_server:
+        image: document_server
+        container_name: document_server
+        build:
+            context: .
+        ports:
+            - 8088:80
+        restart: always
+        tty: true
+        stdin_open: true 
+        volumes:
+            - ~/.aws/:/root/.aws:ro
+
+

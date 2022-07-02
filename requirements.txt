@@ -1,0 +1,10 @@
+numpy
+# Torch
+Pillow
+awscli
+boto3
+requests
+opencv-python
+python-multipart
+scikit-learn==1.0
+pickle5
